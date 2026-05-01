@@ -4,9 +4,9 @@
   "description": "A Intelligent Automation Whatsapp Bot",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name NimA's Bot",
-    "stop": "pm2 stop NimA's Bot",
-    "restart": "pm2 restart NimA's Bot"
+    "start": "pm2 start index.js --deep-monitoring --attach --name NimA",
+    "stop": "pm2 stop NimA",
+    "restart": "pm2 restart NimA"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.21",
