@@ -63,7 +63,7 @@ async function ensureSessionFile() {
 }
 
 async function connectToWA() {
-  console.log("Connecting NimA's Bot 🧬...");
+  console.log("Connecting NimAs Bot 🧬...");
   const { state, saveCreds } = await useMultiFileAuthState(path.join(__dirname, '/auth_info_baileys/'));
   const { version } = await fetchLatestBaileysVersion();
 
@@ -87,7 +87,7 @@ async function connectToWA() {
     } else if (connection === 'open') {
       console.log('✅ NimAs Bot connected to WhatsApp');
 
-      const up = `NimA's Bot connected ✅\n\nPREFIX: ${prefix}`;
+      const up = `NimAs Bot connected ✅\n\nPREFIX: ${prefix}`;
       await nima.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
         image: { url: `https://github.com/nima391/NimA-s-Bot/blob/main/images/NimA%20Functional%20Bot%20Logo.png?raw=true` },
         caption: up
@@ -179,7 +179,7 @@ async function connectToWA() {
 ensureSessionFile();
 
 app.get("/", (req, res) => {
-  res.send("Hello, NimA's Bot started✅");
+  res.send("Hello, NimAs Bot started✅");
 });
 
 app.listen(port, () => console.log(`Server listening on http://localhost:${port}`));
