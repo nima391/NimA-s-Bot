@@ -9,7 +9,7 @@
     "restart": "pm2 restart NimA's Bot"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "@whiskeysockets/baileys": "^7.0.0",
     "api-dylux": "^1.8.5",
     "axios": "^1.15.2",
     "browser-id3-writer": "^6.3.1",
